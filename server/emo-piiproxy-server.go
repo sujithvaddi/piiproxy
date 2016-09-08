@@ -7,6 +7,7 @@ import (
 	"github.com/golang/glog"
 
 	"github.com/piiproxy/api"
+	"github.com/piiproxy/config"	
 	"github.com/gorilla/mux"
 )
 
@@ -16,7 +17,7 @@ const writeTimeout = 10 * time.Second
 const maxHeaderBytes = 1 << 20
 
 func main() {
-        // config.LoadGlogConfig();
+        config.LoadGlogConfig();
 	api.LoadDataFromJson(); // TODO: better way later
 
 	startServer();
