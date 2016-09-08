@@ -2,7 +2,6 @@ package config
 
 import (
 	"flag"
-	"os/user"
 )
 
 func LoadGlogConfig() {
@@ -10,8 +9,8 @@ func LoadGlogConfig() {
 	flag.Parse();
 
 	// TODO: set the log dir later.
-	u, _ := user.Current()
-	flag.Lookup("log_dir").Value.Set(u.HomeDir);
+	// u, _ := user.Current()
+	// flag.Lookup("log_dir").Value.Set(u.HomeDir);
 	//flag.Lookup("logtostderr").Value.Set("true");
 
 	// This seem to be not mandatory.
