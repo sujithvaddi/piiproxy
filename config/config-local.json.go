@@ -6,13 +6,13 @@ package config
 var Placements = []byte(`
     [{
         "name": "pii_us:pii",
-        "host": "perf-sept8-useast-emodb-app-062ea20f7045c1213",
+        "host": "10.100.28.141",
         "port": "8080",
         "locales": ["en_us"]
     },
     {
         "name": "pii_eu:pii",
-        "host": "perf-sept8-euwest-emodb-app-0ae24aba2458a8986",
+        "host": "10.101.28.11",
         "port": "8080",
         "locales": ["en_eu"]
     }]
@@ -20,7 +20,7 @@ var Placements = []byte(`
 
 var ValidPIIPlacements = []string{"pii_us:pii", "pii_eu:pii"};
 
-var EmoHostForExistingPIIWebAppRegion = "perf-sept8-useast-emodb-app-062ea20f7045c1213:8080";
+var EmoHostForExistingPIIWebAppRegion = "10.100.28.141:8080";
 
-var EmoApiKeyHostForExistingPIIWebAppRegion = "perf-sept8-useast-emodb-app-062ea20f7045c1213:8081";
+var EmoApiKeyHostForExistingPIIWebAppRegion = "10.100.28.141:8081";
 
