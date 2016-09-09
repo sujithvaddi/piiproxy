@@ -5,8 +5,8 @@ package config
 
 var Placements = []byte(`
     [{
-        "name": "perf-sept8-useast-emodb-app-062ea20f7045c1213",
-        "host": "localhost",
+        "name": "pii_us:pii",
+        "host": "perf-sept8-useast-emodb-app-062ea20f7045c1213",
         "port": "8080",
         "locales": ["en_us"]
     },
