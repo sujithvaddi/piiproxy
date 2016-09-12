@@ -6,13 +6,13 @@ package config
 var Placements = []byte(`
     [{
         "name": "pii_us:pii",
-        "host": "10.100.28.141",
+        "host": "10.100.20.86",
         "port": "8080",
         "locales": ["en_us"]
     },
     {
         "name": "pii_eu:pii",
-        "host": "10.101.28.11",
+        "host": "10.101.27.181",
         "port": "8080",
         "locales": ["en_eu"]
     }]
